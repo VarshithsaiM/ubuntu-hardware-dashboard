@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=bash -c "sleep 10 && gnome-terminal --full-screen -- bash -c 'python3 ~/Downloads/ubuntu-hardware-dashboard/python_bridge/server_ui.py; exec bash'"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Hardware Dashboard
